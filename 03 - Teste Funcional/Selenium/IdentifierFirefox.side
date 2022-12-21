@@ -1,0 +1,137 @@
+{
+  "id": "f57529ab-f254-4288-996f-a77acfdf43ce",
+  "version": "2.0",
+  "name": "Identifier",
+  "url": "http://labsoft.muz.ifsuldeminas.edu.br",
+  "tests": [{
+    "id": "ef8ece1c-8556-4d9b-9483-ac021727aec3",
+    "name": "Teste01",
+    "commands": [{
+      "id": "7b93ef48-90a1-463e-82fb-8c16bd02446e",
+      "comment": "",
+      "command": "open",
+      "target": "/projetos/identifier/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3db0b454-6be6-4d98-b0eb-68f45e3466ef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a53d2f31-900a-4bdf-965f-b9d1c9a0ab59",
+      "comment": "",
+      "command": "click",
+      "target": "id=texto",
+      "targets": [
+        ["id=texto", "id"],
+        ["name=texto", "name"],
+        ["css=#texto", "css:finder"],
+        ["xpath=//input[@id='texto']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4eb04fa-4e88-427e-a412-daf42a924a3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=texto",
+      "targets": [
+        ["id=texto", "id"],
+        ["name=texto", "name"],
+        ["css=#texto", "css:finder"],
+        ["xpath=//input[@id='texto']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c15f0a4d-080a-477c-bb1d-b62624403598",
+      "comment": "",
+      "command": "type",
+      "target": "id=texto",
+      "targets": [
+        ["id=texto", "id"],
+        ["name=texto", "name"],
+        ["css=#texto", "css:finder"],
+        ["xpath=//input[@id='texto']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "aaas1"
+    }, {
+      "id": "e4cfd2f3-0cbb-4f50-b2ff-6a5a17da5c2d",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0845fca-eb97-4975-9962-482064ecbd71",
+      "comment": "",
+      "command": "click",
+      "target": "id=texto",
+      "targets": [
+        ["id=texto", "id"],
+        ["name=texto", "name"],
+        ["css=#texto", "css:finder"],
+        ["xpath=//input[@id='texto']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d66ddcab-9eef-4b39-b8c8-390117f8c9b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=texto",
+      "targets": [
+        ["id=texto", "id"],
+        ["name=texto", "name"],
+        ["css=#texto", "css:finder"],
+        ["xpath=//input[@id='texto']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6007fc68-512a-4d0f-88a1-6b0382e1d88a",
+      "comment": "",
+      "command": "type",
+      "target": "id=texto",
+      "targets": [
+        ["id=texto", "id"],
+        ["name=texto", "name"],
+        ["css=#texto", "css:finder"],
+        ["xpath=//input[@id='texto']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ddd$%"
+    }, {
+      "id": "e2a02211-d806-412a-b6b7-615057a5f74a",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "775775cf-09d6-42ef-ae5c-dff241274845",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ef8ece1c-8556-4d9b-9483-ac021727aec3"]
+  }],
+  "urls": ["http://labsoft.muz.ifsuldeminas.edu.br/"],
+  "plugins": []
+}
